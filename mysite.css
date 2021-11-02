@@ -1,0 +1,47 @@
+body{
+margin: 0;
+}
+
+.logo{
+    
+    margin-top: -23px;
+    margin-left: 61px;
+
+}
+.page-header{
+    background-color: #FFE17F;
+    width: 1160px;
+    height: 186px;  
+    margin-left: 140px;
+    margin-right: 140px;
+    margin: 40px auto;
+}
+li, form {
+    display: inline;
+}
+
+form {
+    width: 480px;
+    height: 20px;
+}
+.navigation-item1{
+    width: 480px;
+    height: 20px;
+}
+
+.navigation-link-first{
+    line-height: 16px;
+    color: black;
+    text-decoration: none;
+}
+.navigation-link{
+    line-height: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.navigation-menu{
+    display: flex;
+}
