@@ -6,74 +6,58 @@
     <title>Девайс</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header container">
       <nav class="navigation">
         <img class="logo" src="img/Group.png" alt="Логотип">
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-image"> <img src="img/navigation/search.png" alt="search"></li>
-          <li>
-            <form сlass="search">
+        <div class="menu-top">
+          <p class="navigation-image image-search"> <img src="img/navigation/search.png" alt="search"></p>
+          <form сlass="search">
               <input type="text" placeholder="Поиск по сайту">
-              <button type="submit"></button>
-            </form> 
-          </li> 
-          <li class="navigation-image"> <img src="img/navigation/enter.png" alt="enter"></li>
-          <li class="navigation-item1"><a class="navigation-link-first" href="#">Войти</a></li>
-          <li class="navigation-image"> <img src="img/navigation/search.png" alt="search"></li>
-          <li class="navigation-item2"><a class="navigation-link-first" href="#">Сравнить</a></li>
-          <li class="navigation-image"> <img src="img/navigation/basket.png" alt="basket"></li>
-          <li class="navigation-item3"><a class="navigation-link-first" href="#">Корзина</a></li>
-        </ul>
+          </form> 
+          <p class="navigation-image"> <img src="img/navigation/enter.png" alt="enter"></p>
+          <p class="navigation-enter"><a class="navigation-pnk-first" href="#">Войти</a></p>
+          <p class="navigation-image compare"> <img src="img/navigation/compare.png" alt="search"></p>
+          <p class="navigation-compare"><a class="navigation-pnk-first" href="#">Сравнить</a></p>
+          <p class="navigation-image basket"> <img src="img/navigation/basket.png" alt="basket"></p>
+          <span>2</span>
+          <p class="navigation-basket"><a class="navigation-pnk-first" href="#">Корзина</a></p>
+        </div>
+          <div class="menu-bottom">
+          <p class="menu-catalog"><a class="navigation-pnk" href="catalog.html">Каталог товаров</a></p>
+          <p class="menu-delivery"><a class="navigation-pnk" href="depvery.html">Доставка</a></p>
+          <p class="menu-gueranty"><a class="navigation-pnk" href="guarantee.html">Гарантия</a></p>
+          <p class="menu-contacts"><a class="navigation-pnk" href="contacts.html">Контакты</a></p>
+        </div> 
       </nav>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item"><a class="navigation-link" href="catalog.html">Каталог товаров</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>
-        </ul>
-      </nav> 
     </header> 
-    <main>
-      <h1 class="visually-hidden">Интернет магазин Девайс</h1>
+    <main class="container">
+      <div class="popualr-category">
+        <h1 class="visually-hidden">Интернет магазин Девайс</h1>
         <h2 class="visually-hidden">Популярные товары</h2>
-          <section class="gallery" >
-            <img class="slider-img" src="" alt="фото">
-            <button class="slider-button slider-prev" type="button">
-              <span class="visually-hidden">Предыдущее фото</span>
-            </button>
-            <button class="slider-button slider-next" type="button">
-              <span class="visually-hidden">Следующее фото</span>
-            </button>
-        <ol class="slider-pagination">
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Квадракоптер</span>
-            </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Фитнес-браслет</span>
-            </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Палка для селфи</span>
-            </button>
-          </li>
-        </ol>
-            <h3>01</h3>
-              <p>Порхает как бабочка,
-                жалит как пчела!
-              </p>
-              <p>Этот обычный, на первый взгляд, квадрокоптер оснащён мощным лазером, замаскированным под стандартную камеру.
-              </p>
-              <p>800м</p>
-              <p>50м</p>
-              <p>Дальность полета</p>
-              <p>Радиус поражения</p>
-              <a class="button" href="#">подробнее</a>
-          </section>
+        <div class="gallery" >
+          <button class="spder-button spder-prev" type="button">
+            <span class="visually-hidden">Предыдущее фото</span>
+          </button>
+          <button class="spder-button spder-next" type="button">
+            <span class="visually-hidden">Следующее фото</span>
+          </button>
+          <img class="spder-img" src="img/slider/slider-1.png" alt="фото">
+         
+        </div>
+        <div class="text-container">
+          <button class="spder-pagination-button" type="button">
+            <span class="visually-hidden">Квадракоптер</span>
+          </button>
+          <h3>01</h3>
+          <p>Порхает как бабочка, жалит как пчела! </p>
+          <p>Этот обычный, на первый взгляд, квадрокоптер оснащён мощным лазером, замаскированным под стандартную камеру.</p>
+          <p>800м</p>
+          <p>50м</p>
+          <p>Дальность полета</p>
+          <p>Радиус поражения</p>
+          <a class="button" href="#">подробнее</a>
+        </div>   
+      </div>
     </main>
-  </body>
+    </body>
 </html>

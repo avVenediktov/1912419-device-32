@@ -1,68 +1,95 @@
 body{
-margin: 0;
+    margin: 0;
 }
 
-.logo{
-    
-    margin-top: -23px;
-    margin-left: 61px;
-
+.container{ 
+    max-width: 1160px;
+    margin: 0 auto;  
 }
-.page-header{
+
+.navigation {
     background-color: #FFE17F;
-    width: 1160px;
-    height: 186px;  
-    margin-left: 140px;
-    margin-right: 140px;
-    margin: 40px auto;
+    margin-top: 40px;
 }
 
-.navigation-list { 
-    display: grid;
-    grid-template-columns: 16px 480px 13px 220px 13px 100px 16px 100px;
-    grid-column-gap: 10px;
-}
-li { 
-    list-style-type: none;
-}
-.search {
-position: absolute;
-width: 480px;
-height: 20px;
-left: 236px;
-top: 89px;
-
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-
-/* basic/black */
-
-color: #000000;
-
+.logo { 
+    margin-left: 61px;
+    margin-top: -23px;
 }
 
-
-.navigation-item1{
+.menu-top { 
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 44px;
+    padding-left: 60px;
+}
+input { 
     width: 480px;
     height: 20px;
+    border: none;
+    background: none;
+    outline: none;
 }
 
-.navigation-link-first{
-    line-height: 16px;
-    color: black;
-    text-decoration: none;
+.navigation-image { 
+    width: auto;
+    height: auto;
+    padding: 0 10px; 
 }
-.navigation-link{
-    line-height: 20px;
-    color: black;
-    text-decoration: none;
+.navigation-enter {
+    width: 220px;
+    height: auto; 
 }
 
+.navigation-compare {
+    width: 100px;
+    height: auto; 
+}
 
+.navigation-basket {
+    width: 100px;
+    height: auto; 
+}
 
-.navigation-menu{
+.menu-bottom { 
     display: flex;
+    align-items: baseline;
+    padding-bottom: 17px;
+    padding-left: 60px;
+}
+
+.menu-catalog { 
+    width: 236;
+}
+
+.menu-delivery { 
+    width: 140;
+    padding-left: 304px;
+    
+}
+.menu-gueranty { 
+    width: 140;
+    padding-left: 19px;
+    
+}
+.menu-contacts { 
+    width: 140;
+    padding-left: 62px;
+}
+
+.popualr-category{ 
+    display: flex;
+    align-content: center;
+}
+
+.text-container { 
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.visually-hidden { 
+    display: none;    
 }
