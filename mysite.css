@@ -16,14 +16,35 @@ margin: 0;
     margin-right: 140px;
     margin: 40px auto;
 }
-li, form {
-    display: inline;
+
+.navigation-list { 
+    display: grid;
+    grid-template-columns: 16px 480px 13px 220px 13px 100px 16px 100px;
+    grid-column-gap: 10px;
+}
+li { 
+    list-style-type: none;
+}
+.search {
+position: absolute;
+width: 480px;
+height: 20px;
+left: 236px;
+top: 89px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+/* basic/black */
+
+color: #000000;
+
 }
 
-form {
-    width: 480px;
-    height: 20px;
-}
+
 .navigation-item1{
     width: 480px;
     height: 20px;
