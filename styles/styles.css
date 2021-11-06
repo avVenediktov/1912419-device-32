@@ -1,31 +1,12 @@
 @font-face {
     font-family:"Rubik";
     font-style: normal;
-    font-weight: 400;
-    src: url("fonts/rubik-400.woff2") format("woff2"),
-         url("fonts/rubik-400.woff") format("woff");
-    font-display: swap;
-}
-@font-face {
-    font-family:"Rubik";
-    font-style: normal;
-    font-weight: 700;
-    src: url("fonts/rubik-700.woff2") format("woff2"),
-         url("fonts/rubik-700.woff") format("woff");
-    font-display: swap;
-}
-@font-face {
-    font-family:"Rubik";
-    font-style: normal;
-    font-weight: 800;
-    src: url("fonts/rubik-800.woff2") format("woff2"),
-         url("fonts/rubik-800.woff") format("woff");
+    src: url("fonts/rubik/Rubik-VariableFont_wght.ttf") format("truetype");
     font-display: swap;
 }
 @font-face {
     font-family: "Raleway";
     font-style: normal;
-    font-weight: 800;
     src: url("fonts/raleway-800.woff2") format("woff2"),
          url("fonts/raleway-800.woff2") format("woff");
     font-display: swap;
@@ -40,7 +21,7 @@ body{
     line-height: 19px;
 }
 .menu-bottom{
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -60,12 +41,16 @@ body{
     text-align: right;
 }
 .text-title{
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
 }
 .text-description{
-
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px; 
 }
